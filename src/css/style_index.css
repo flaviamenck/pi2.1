@@ -1,0 +1,42 @@
+  .pagina-inicial {
+    position: relative;
+    height: 100vh; /* Ajuste conforme necessário */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .div-imagem-inicio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .img-inicio {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para garantir que a imagem cubra toda a área */
+  }
+  
+  .div-titulos {
+    position: absolute;
+    bottom: 130px;
+    left: 0;
+    padding: 20px; /* Ajuste conforme necessário */
+    color: #fff; /* Cor do texto */
+  }
+  
+  .title-inicio {
+    font-size: 3.5em; /* Tamanho da fonte para o h1 */
+    margin: 0; /* Remover a margem padrão do h1 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao texto */
+  }
+  
+  .text-inicio {
+    font-size: 1.5em; /* Tamanho da fonte para o span */
+    display: block; /* Faz o span ocupar a largura total */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao texto */
+  }
+  

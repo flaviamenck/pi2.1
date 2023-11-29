@@ -1,0 +1,119 @@
+.title-form h1 {
+  
+    text-transform: capitalize;
+    font-size:48px;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  .title-form h1:after {
+      position: absolute;
+      left: 0;
+      bottom: 10;
+      width: 65px;
+      height: 3px;
+      content: "";
+      background-color: #009fff;
+  }
+  .title-form h1 .subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    line-height: 3em;
+    padding-left: 0.25em;
+    color: #fff;
+    padding-bottom: 10px;
+  }
+  .alt h1 {
+    text-align:center;
+  }
+  .alt h1:after {
+    left:50%; margin-left:-30px;
+  }
+  .box-formulario {
+      width: 100%; /*ou*/
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #2b2424;
+      padding:60px 0;
+  }
+  .formulario {
+      width: 700px;
+      background: #2b2424;
+      padding: 60px 5%;
+      text-align: center;
+  }
+  .formulario span {
+    position: relative;
+    display: flex;
+    margin: 30px 10px;
+  }
+  .width-slide {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0 10px 65px;
+    font-family: "Open Sans", sans;
+    font-weight: 400;
+    color: #4c4c4c;
+    background: #ffffff;
+    border: 0;
+    border-radius: 50px;
+    outline: 0;
+    transition: all .3s ease-in-out;
+  }
+  .width-slide::-webkit-input-placeholder {
+    
+    color: #4c4c4c;
+    font-weight: 300;
+  }
+  .width-slide + label {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 50px;
+    height: 100%;
+    padding: 10px 15px;
+    text-shadow: 0 1px 0 rgba(19, 74, 70, 0.4);
+    background: #009FFF;
+    color: #ffffff;
+    transition: all .3s ease-in-out;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  .width-slide:focus,
+  .width-slide:active {
+    color: #009FFF;
+    padding: 10px 0 10px 35px;
+    background: #fff;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .width-slide:focus::-webkit-input-placeholder,
+  .width-slide:active::-webkit-input-placeholder {
+    color: #4c4c4c;
+  }
+  .width-slide:focus + label,
+  .width-slide:active + label {
+    transform: translateX(-42%);
+  }
+  .btn-submit {
+      color: #fff;
+      background: #009fff;
+      cursor: pointer;
+      transition: 0.3s;
+      border: none;
+      padding: 10px 0;
+      font-size: 23px;
+      font-weight: bold;
+      border-radius: 50px;
+      width: 100%;
+  }
+  .btn-submit:hover {
+   
+      background-color: #535c6a;
+      color: #fff;
+  }

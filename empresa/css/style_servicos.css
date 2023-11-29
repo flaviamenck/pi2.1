@@ -1,0 +1,84 @@
+/* SERVIÇOS */
+.titulos-h1 {
+    font-size: 35px;
+    text-align: center;
+    padding: 5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao texto */
+}
+
+.p-serv {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao texto */
+}
+
+.emp_ou_cand {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.btn-serv {
+    background-color: #0187a7;
+    color: #fff;
+    font-size: 20px;
+    border: solid 1px #fff;
+    border-radius: 6px;
+    text-align: center;
+    padding: 10px 25px;    
+    height: 50px;
+    width: 220px;
+}
+
+.btn-serv:hover{
+    background-color: #047794;
+    transition: 0.4s;
+}
+
+.btn-emp-cand {
+    text-decoration: none;
+    color: #fff;
+}
+
+.img-serv {
+    width: 450px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    margin-bottom: 25px;
+}
+
+.div-serv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_vagas {
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px 8px;
+    border: solid 1px #047794;
+    border-radius: 8px;
+}
+
+article {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.div_article {
+    padding-bottom: 15px;
+}
+
+.input_cur {
+    padding: 15px;
+    font-size: 18px;
+}
+
+.curriculo_input {
+    font-size: 18px;
+}

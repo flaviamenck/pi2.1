@@ -1,0 +1,48 @@
+/* SOBRE NÓS */
+
+section {
+    background-color: #b6b6b6;
+    height: 100%;
+}
+
+h2 {
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.conteudo-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding-bottom: 45px;
+    height: 100vh;
+}
+
+.img-sobre-nos {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 650px;
+}
+
+.img-sobre {
+    width: 650px;
+    height: 450px;
+    padding: 35px;
+    margin-top: 15%;
+}
+
+.text-sobre {
+    text-align: justify;
+    font-size: 20px;
+    width: 650px;
+    height: 85vh;
+    padding: 20px;
+}
+
+.p-sobre {
+    padding: 10px;
+}
